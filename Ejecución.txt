@@ -1,0 +1,28 @@
+*Instalación de librerias necesarias
+import PyMuPDF, qrcode
+
+*Codigo para instalar librerias
+entrar a consola y pegar este codigo en caso no tengas las librerias instaladas
+
+pip install PyMuPDF qrcode pillow
+
+*Los cuales se importan dentro del codigo, lo puedes ver desde la linea 1 hasta la 3
+
+*Desde la linea 6 a 11, es la función para poder leer el texto del PDF.
+
+*Asi mismo, la linea 13 al 18 es la función para extraer los datos.
+
+*Desde la linea 20 al 24, es para hacer la conversión de fecha textual a dd/mm/yyyy
+
+*Asi mismo, los datos retornan y se muestra de forma textual al momento de extraer dichos datos
+*Tales como RUC, DNI, FECHA, UNIVERSIDAD Y CARRERA
+
+*Ahora, la generación del codigo QR el cual comienza desde la linea 41 hasta la linea 47.
+
+* Y por ultimo la ejecución del sistema, seleccionando la ruta del archivo PDF, haciendo leectura al pdf.
+* Asi mismo, extrayendo los datos y generando el QR para mostrarlo al momento de escanearlo.
+
+Al momento de escanear el QR creado, como resultado se mostrara lo siguiente:
+
+Muestra de la lectura del QR: |20555841095|71002558|02/08/2023|Universidad Tecnologica De Lima Sur|administración de empresas|
+QR guardado como: qr_certificado.png
